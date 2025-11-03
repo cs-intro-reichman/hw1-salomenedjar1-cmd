@@ -13,7 +13,7 @@ public class TimeFormat {
 		hours= hours-12;
 	    }
 	else
-		PeriodOfDay= "PM";
+		PeriodOfDay= "AM";
 		
 
 		if (minutes>10)
