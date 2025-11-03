@@ -5,7 +5,7 @@ public class NumWords {
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
 		int number= Integer.parseInt(args[0]);
-		int hundreds= (number/100)%10;
+		int hundreds= (number/100);
 		int tens= (number/10)%10;
 		int units= (number%10);
 
